@@ -28,10 +28,10 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- * A alternative implementation of the PeakRateCounter, this is a resettable
- * counter implementation backed by an
- * {@link java.util.concurrent.atomic.ConcurrentHashMap}. The value is the
- * maximum count per second until the counter is reset.
+ * A alternative implementation of the PeakRateCounter, 
+ * this is a resettable counter implementation backed by an
+ * {@link java.util.concurrent.atomic.ConcurrentHashMap}. 
+ * The value is the maximum count per second until the counter is reset.
  */
 public class PeakRateResettableCounter extends AbstractMonitor<Number>
         implements Counter, ResettableMonitor<Number> {
